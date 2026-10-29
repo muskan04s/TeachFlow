@@ -30,22 +30,6 @@ TeachFlow is a small full-stack Web Technology project built with HTML, CSS, Jav
 - `attendance` — dated attendance records
 - `assignments` — assignment deadlines and status
 
-## GitHub publishing
-1. Sign in to GitHub and create a **public** repository named `TeachFlow`.
-2. Upload the project files/folders from this project (or use Git commands from this folder).
-3. Commit the files and copy the repository URL.
-4. Replace `GITHUB_REPOSITORY_URL_HERE` in the demonstration PDF with your actual repository URL before submitting.
-
-Example Git commands (run in the project folder after installing Git):
-```bash
-git init
-git add .
-git commit -m "Initial TeachFlow project"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/TeachFlow.git
-git push -u origin main
-```
-
 ## Notes
 - This is a classroom demonstration project, not a production system. It has no login/authentication or role permissions.
 - Keep `config.php` credentials private if you deploy the app publicly. Do not publish real student personal data.
